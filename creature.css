@@ -1,0 +1,186 @@
+.wrapper {
+    margin: 100px 500px 10px 500px;
+}
+
+.face {
+    width: 333px;
+    height: 400px;
+    position: relative;
+    border: black 10px solid;
+    background-color:rgb(231, 226, 219);
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.hair1 {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid black;
+    transform: rotate(180deg);
+}
+
+.hair2 {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid black;
+    transform: rotate(180deg);
+    left: 67px;
+    top: -80px;
+}
+
+.hair3 {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid black;
+    transform: rotate(180deg);
+    top: -140px;
+    left: 135px;
+}
+
+.hair4 {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid black;
+    transform: rotate(180deg);
+    top: -220px;
+    left: 200px;
+}
+
+.hair5 {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid black;
+    transform: rotate(180deg);
+    top: -280px;
+    left: 263px;
+}
+
+.left-eye {
+    width: 100px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: -220px;
+    background-color: white;
+    transform: rotate(13deg);
+}
+
+.left-pupil {
+    width: 30px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 100px;
+    position: relative;
+    left: 45px;
+    top: 15px;
+    background-color: black;
+}
+
+.right-eye {
+    width: 100px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 20px;
+    position: relative;
+    left: 195px;
+    top: -270px;
+    background-color: white;
+    transform: rotate(170deg);
+}
+
+.right-pupil {
+    width: 30px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 100px;
+    position: relative;
+    left: 47px;
+    top: 3px;
+    background-color: black;
+}
+
+.left-nostril {
+    width: 10px;
+    height: 10px;
+    border: solid 1px black;
+    border-radius: 100px;
+    position: relative;
+    left: 150px;
+    top: -210px;
+    background-color: black;
+}
+
+.right-nostril {
+    width: 10px;
+    height: 10px;
+    border: solid 1px black;
+    border-radius: 100px;
+    position: relative;
+    left: 180px;
+    top: -222px;
+    background-color: black;
+}
+
+.mouth {
+    width: 140px;
+    height: 8px;
+    border-bottom-right-radius:500px;
+    border-bottom-left-radius: 500px;
+    border: 5px solid black;
+    border-top: 0;
+    position: relative;
+    left: 95px;
+    top: -160px;
+}
+
+.left-fang {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 30px solid white;
+    transform: rotate(180deg);
+    top: -160px;
+    left: 120px;
+}
+
+.right-fang {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 30px solid white;
+    transform: rotate(180deg);
+    top: -190px;
+    left: 200px;
+}
+
+.drop {
+    width: 10px;
+    height: 10px;
+    border: solid 1px black;
+    border-radius: 5px 200px 100px 200px;
+    position: relative;
+    left: 124px;
+    top: -185px;
+    background-color: red;
+    transform: rotate(45deg);
+}
